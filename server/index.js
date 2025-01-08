@@ -7,7 +7,7 @@ const app = express()
 
 // Update the origin URL: remove the trailing slash
 app.use(cors({
-    origin: ["https://baby-frontend-ochre.vercel.app"], // No trailing slash
+    origin: ["https://baby-front-nine.vercel.app"], // No trailing slash
     methods: ["POST", "GET"],
     credentials: true
 }));
